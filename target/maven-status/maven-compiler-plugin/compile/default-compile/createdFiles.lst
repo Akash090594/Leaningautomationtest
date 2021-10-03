@@ -1,7 +1,0 @@
-PageClasses\TeachingLoginPage.class
-PageClasses\PracticeLoginPage.class
-AppConfiguration\AppConstants.class
-PageClasses\OurProjectPage.class
-PageClasses\RS_HomePage.class
-AppConfiguration\Utilityclass.class
-BasePackage\BasePage.class

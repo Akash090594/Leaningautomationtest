@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10478" started-at="2021-09-29T18:07:31 IST" finished-at="2021-09-29T18:07:41 IST">
+  <suite started-at="2021-10-02T13:50:48 IST" name="Default suite" finished-at="2021-10-02T13:51:43 IST" duration-ms="54952">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10478" started-at="2021-09-29T18:07:31 IST" finished-at="2021-09-29T18:07:41 IST">
-      <class name="TestPage.RS_PracticeLoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@32eebfca]" name="setUp" is-config="true" duration-ms="10379" started-at="2021-09-29T18:07:31 IST" finished-at="2021-09-29T18:07:41 IST">
+    <test started-at="2021-10-02T13:50:48 IST" name="Default test" finished-at="2021-10-02T13:51:43 IST" duration-ms="54952">
+      <class name="TestPage.RS_HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestPage.RS_HomePageTest@12aba8be]" started-at="2021-10-02T13:50:48 IST" name="setUp" finished-at="2021-10-02T13:51:09 IST" duration-ms="20997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifytermsandconditionText()[pri:0, instance:TestPage.RS_PracticeLoginPageTest@32eebfca]" name="verifytermsandconditionText" duration-ms="68" started-at="2021-09-29T18:07:41 IST" finished-at="2021-09-29T18:07:41 IST">
+        <test-method signature="verifyHomePage()[pri:1, instance:TestPage.RS_HomePageTest@12aba8be]" started-at="2021-10-02T13:51:09 IST" name="verifyHomePage" finished-at="2021-10-02T13:51:40 IST" duration-ms="30393" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifytermsandconditionText -->
-      </class> <!-- TestPage.RS_PracticeLoginPageTest -->
+        </test-method> <!-- verifyHomePage -->
+        <test-method signature="clickingonLoginTab()[pri:2, instance:TestPage.RS_HomePageTest@12aba8be]" started-at="2021-10-02T13:51:40 IST" name="clickingonLoginTab" finished-at="2021-10-02T13:51:43 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingonLoginTab -->
+      </class> <!-- TestPage.RS_HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
